@@ -1,0 +1,90 @@
+body{
+  background-color: hsl(204, 43%, 93%);
+  padding: 40px;
+  height: 900px;
+  width: 650px;
+  margin: auto;
+  padding-bottom: 10px;
+}
+p{
+  line-height: 8px;
+}
+
+/* class */
+.main-page{
+  background-color: #fff;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  border-radius: 10px;
+  padding-top: 10px;
+
+}
+.page2{
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.sub1{
+  background-color: hsl(179, 62%, 43%);
+  border-bottom-left-radius: 10px;
+  padding: 20px;
+}
+.sub2{
+  background-color: hsl(179, 68%, 43%);
+  border-bottom-right-radius: 10px;
+  padding: 20px;
+}
+.title{
+  margin-left: 40px;
+  margin-top: 40px;
+  color: hsl(179, 62%, 43%);
+}
+
+.subtitle{
+margin-left: 40px;
+color: hsl(71, 73%, 54%);
+}
+
+.subsubtitle{
+  margin-left: 40px;
+  color:hsl(218, 22%, 67%);
+}
+
+.monthly{
+  color:#fff;
+  margin-left: 20px;
+}
+.price{
+  color:#fff;
+  margin-left: 20px;
+
+}
+.reason{
+  color:#fff;
+  margin-left: 20px;
+}
+.description{
+  color:#fff;
+  margin-left: 20px;
+}
+/* button */
+.button{
+  height: 50px;
+  width: 220px;
+  background-color: hsl(71, 73%, 54%);
+  border-radius: 5px;
+  border:none;
+  margin-left: 30px;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+}
+.dollar{
+  font-weight:bold;
+  font-size: 35px;
+}
+.price{
+  font-weight: lighter;
+}
